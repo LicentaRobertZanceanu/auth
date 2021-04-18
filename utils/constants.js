@@ -1,0 +1,1 @@
+export const USERS_MICROSERVICE_API = 'https://smartmusicapi-users.herokuapp.com/users'

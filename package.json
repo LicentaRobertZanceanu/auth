@@ -1,0 +1,33 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LicentaRobertZanceanu/auth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LicentaRobertZanceanu/auth/issues"
+  },
+  "homepage": "https://github.com/LicentaRobertZanceanu/auth#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-rsa": "^1.1.1",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
+  },
+  "type": "module",
+  "engines": {
+    "node": "12.18.1"
+  }
+}
